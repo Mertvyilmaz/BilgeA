@@ -1,0 +1,10 @@
+body {
+    background-color: #ffebcd;
+    color: red;
+}
+
+p{
+    /* color: #000000;
+    color: rgb(209, 36, 137); */
+    color: hsl(142, 1%, 58%);
+}

@@ -1,0 +1,27 @@
+* {
+    background-color: beige;;
+}
+
+.flag {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.flag div {
+    height:300px;
+    width: 200px;
+    float: left;
+}
+
+.flag div:first-child {
+    background-color: navy;
+}
+
+.flag div:nth-child(2) {
+    background-color: white;
+}
+
+.flag div:nth-child(3) {
+    background-color: red;
+} 

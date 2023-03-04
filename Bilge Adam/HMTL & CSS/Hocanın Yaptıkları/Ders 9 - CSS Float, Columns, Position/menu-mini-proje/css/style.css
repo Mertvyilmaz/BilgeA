@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    border: 2px solid #333;
+    margin: 1rem auto;
+    max-width: 600px;
+    font-size: 3rem;
+    text-align: center;
+    /* border-start-start-radius: 2rem;
+    border-end-start-radius: 2rem;
+    border-start-end-radius: 2rem;
+    border-end-end-radius: 2rem; */
+    border-radius: 2rem;
+}
+
+h2 {
+    background-color: tomato;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 1px solid black;
+}
+
+li a {
+    /* display: block; */
+    /* kendi default özelliğini alır */
+    /* display: initial; */
+    display: inherit;
+    padding: 2rem;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover,
+li a:focus {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+li:last-child a {
+    /* border-radius: 0 0 2rem 2rem; */
+}

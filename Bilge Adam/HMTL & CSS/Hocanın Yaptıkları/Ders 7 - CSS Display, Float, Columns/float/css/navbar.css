@@ -1,0 +1,42 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: ' '; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+ul {
+    background-color: #333;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+ul li {
+    float: left;
+    padding: 1rem 0;
+}
+
+.active {
+    background-color: red;
+}
+
+.active a:hover {
+    background-color: red;
+}

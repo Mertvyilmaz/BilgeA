@@ -1,0 +1,49 @@
+@font-face{
+
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-size: 2rem;
+}
+
+input, button {
+    font-size: inherit;
+    text-align: center;
+}
+
+p {
+    text-decoration-line:underline;
+    text-transform: capitalize;
+    text-align:justify;
+    line-height: 1.2;
+    letter-spacing: 0.5em;
+    word-spacing: 0.4em;
+}
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: aqua;
+}
+
+a:visited
+{
+    color: tomato;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+a:focus {
+
+} /* Mobilde iyi çalışır. */

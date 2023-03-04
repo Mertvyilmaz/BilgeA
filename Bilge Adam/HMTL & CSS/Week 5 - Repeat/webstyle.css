@@ -1,0 +1,58 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: aquamarine;
+    padding: 1.5rem 1rem;
+}
+
+main {
+    margin: 1rem 0;
+    height: 79vh;
+}
+.column {
+    float: left;
+}
+
+.text {
+    width: 70%;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.menu {
+    width: 25%;
+    border-right: 2px solid red;
+    height: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.menu li {
+    padding: 0.5rem;
+    background-color:cadetblue;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: darkcyan;
+    color: antiquewhite;
+}
+

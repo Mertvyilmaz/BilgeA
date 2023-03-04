@@ -1,0 +1,29 @@
+body {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: auto;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+a:visited {
+    color: hsl(207, 44%, 49%);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    cursor: pointer;
+    color: hsl(189, 44%, 49%, 1);
+    /* background-color: brown; */
+}
+
+p {
+    color: rgb(0, 0, 0, 0.5);
+}
+
+a:active {
+    color: blue;
+}

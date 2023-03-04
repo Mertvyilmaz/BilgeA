@@ -1,0 +1,17 @@
+.main {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.box {
+    background-color: blue;
+    width: 20%;
+    height: 20%;
+    padding: 1rem;
+}
+
+select {
+    margin: 1rem;
+}

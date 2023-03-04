@@ -1,0 +1,71 @@
+* {
+    background-color: white;
+    font-family:'Courier New', Courier, monospace }
+
+.main-header {
+    text-align: center;
+    border: 6px double black;
+    margin: 3rem auto;
+    width: max-content;
+    padding: 0.5rem 1rem;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 2px 0;
+    }
+
+.topnav a {
+        color: black;
+        text-align: center;
+        padding: 16px;
+        font-size: 20px;
+        text-decoration:none;
+      }
+      
+.topnav a:hover {
+  background-color:whitesmoke;
+  color: black;
+}
+
+.topnav a.active {
+    background-color:whitesmoke;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+.main-content {
+    margin: 1rem;
+}
+
+.menu {
+    font-weight: bold;
+}
+.menu-item {
+    border-bottom: 2px dotted black;
+    margin: 6px 0px;
+    padding: 6px 0px;
+}
+.drinks {
+    float: left;
+}
+.price {
+    float: right;
+}
+.hover-img {
+    display: none;
+}
+.menu-item:hover img {display: block;}
+/* .menu-item:hover::after {
+    content: url(./coffees/filter.jpeg);
+    display:inline-block;
+    position: relative;
+} */
+    
+

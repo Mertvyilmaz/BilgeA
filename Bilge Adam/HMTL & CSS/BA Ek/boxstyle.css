@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.main-box {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+    background-color: azure;
+}
+
+.box {
+    width: 50%;
+    height: 50px;
+    margin: 40px auto;
+    padding: 5%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 10px solid red;
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    margin: 40px auto;
+}
+
+.japan {
+    border: 1px solid white;
+    height: 10rem;
+    width: 20rem;
+    background-color: white;
+    margin: auto;
+}

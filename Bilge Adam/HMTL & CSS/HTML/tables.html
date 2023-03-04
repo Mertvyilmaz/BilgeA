@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bunu W3c'den aldık. -->
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+
+<body>
+    <table>
+        <caption> My Daily Schedule </caption>
+        <thead>
+            <tr>
+                <th id="Empty"></th>
+                <th scope="col"> Time </th>
+                <th scope="col"> Activity </th>
+            </tr>
+        </thead>
+
+        <tbody> 
+            
+            <tr>
+            <th scope="row"">Morning</th>
+                <td> <time datetime="08:00"> 8am </time> - <time datetime="11:00">11am</time> </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+            <th scope="row">Break</th>
+                <td> <time datetime="11:00">11am </time> - <time datetime="12:00">12pm</time></td>
+                <td>Study for other courses</td>
+            </tr>
+            <tr>
+            <th scope="row">Afteroon</th>
+                <td><time datetime="12:00">12pm</time> - <time datetime="15:00">3pm</time></td>
+                <td>Ride Motorcyle</td>
+            </tr>
+            <tr>
+                <th colspan="3"> Free Time </th>
+            </tr>
+            <tr>
+                <th> Evening</th>
+                <td rowspan="2"> All Other Times </td>
+                <td>Eat</td>
+            </tr>
+            <tr>
+                <th> Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>   
+        <tfoot>
+            <tr>
+                <td colspan="3"> This is My Daily Routine</td>
+            </tr>
+        </tfoot> 
+    </table>
+</body>
+<!-- Önemli Kısımlar:
+    1. Scope vs ID farkı? 
+    2. Colspan - Rowspan
+    3.  -->
+
+</html>

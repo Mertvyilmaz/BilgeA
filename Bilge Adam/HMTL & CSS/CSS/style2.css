@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+p {
+    color: #ffffffff;
+    color: rgb(250, 140, 120);
+    color: hsl(hue, saturation, lightness);
+}
+
+h1 {color: red;
+}

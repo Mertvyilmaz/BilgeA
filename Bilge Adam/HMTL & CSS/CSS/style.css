@@ -1,0 +1,23 @@
+* {}
+body{
+    background-color:burlywood;
+}
+h2{
+    color: brown;
+}
+h1{
+    color: black;
+}
+#title-1 {color: steelblue;}
+
+.grey {
+    color: grey;
+}
+
+div span {
+    background-color:aqua;
+}
+
+div > span {background-color: red;
+
+}

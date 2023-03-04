@@ -1,0 +1,51 @@
+.inline-block div {
+    display: inline-block;
+    background-color: tomato;
+}
+
+.inline-block-font {
+    font-size: 0px;
+}
+
+.inline-block-font div {
+    display: inline-block;
+    background-color: blue;
+    font-size: 1rem;
+}
+
+.float-parent {
+    background-color: cornflowerblue;
+}
+
+.float-parent div {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.float-parent div:first-child {
+    background-color: tan;
+}
+
+.float-parent div:nth-child(2) {
+    background-color: tomato;
+    
+}
+
+.float-parent div:nth-child(3) {
+    background-color: crimson;
+}
+
+/* p {
+    clear: both;
+} */
+
+.cf:before,
+.cf:after {
+    content: ' '; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

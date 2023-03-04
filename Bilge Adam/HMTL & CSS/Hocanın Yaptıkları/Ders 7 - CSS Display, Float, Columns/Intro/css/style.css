@@ -1,0 +1,37 @@
+/* External CSS */
+
+* {
+    background-color: bisque;
+}
+
+body {
+    background-color: bisque;
+}
+
+#title-1 {
+    color: steelblue;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: brown;
+}
+
+.grey {
+    color: green;
+}
+
+/* div span {
+    background-color: coral;
+} */
+
+div > span {
+    background-color: coral;
+}
+
+/* p, span{
+    background-color: cyan !important;
+} */
